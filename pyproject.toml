@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "web-socket"
+version = "0.1.0"
+description = ""
+authors = ["sattorovsharofiddin <cyberpancher10@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_socket"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.100.0"
+uvicorn = "^0.22.0"
+websockets = "^11.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
