@@ -19,4 +19,4 @@ async def connect_websocket():
             await websocket.close()
 
 
-asyncio.new_event_loop().run_until_complete(connect_websocket())
+asyncio.run(connect_websocket())
